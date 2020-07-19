@@ -29,5 +29,5 @@ def messages(message):
                 os.remove(path)
                 break
     except Exception as e:
-        pass
+        print(e)
 bot.polling(none_stop=True) #run
